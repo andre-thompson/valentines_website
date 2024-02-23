@@ -1,7 +1,7 @@
 # Andre Thompson
 ## Bacchelor of Science in Computer Science specializing in Digital Forensics  
 ### Bowling Green State University
-#### Website address: http://150.136.121.4/  
+
 
 **Program Installation**  
 Uses nginx  
