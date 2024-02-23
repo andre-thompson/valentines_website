@@ -1,0 +1,33 @@
+body{
+	background-color: #C71585;
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	text-align: center;
+}
+
+p{
+	font-size: 24px;
+}
+
+.center_img {
+	align-items: center;
+
+
+}
+
+.right_img{
+	margin-top: -200px;
+	float: right;
+}
+
+.left_img{
+
+	margin-top: -200px;
+	float: left;
+}
+
+#yes_b{
+	margin-left: -170px;
+	float left;
+	font-size: 24px;
+}
+

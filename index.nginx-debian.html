@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Happy Valentines Bear :)</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+<audio src="bruh.mp3" id="audio" controls style="display: none;"></audio>
+<audio src="yay.mp3" id="audio2" controls style="display: none;"></audio>
+<h1>Happy Valentines Bear :)</h1>
+
+
+<div class="center_img">
+	<img src="https://64.media.tumblr.com/e642b66f8548fa1485621bd82d3eacc9/df8c8427627025f7-72/s640x960/af7dc108c6fd722e684f767aa7ad6b9f72f9d9c9.gif" alt="spinning cat <3" height=250 width=250>
+</div>
+<p> Will you be my valentine?</p>
+<button id="yes_b" onclick="yes_clicked()">Yes!! </button>
+<button id="no_b" onclick="no_clicked()">No :(</button>
+<div class="right_img">
+	<img src="https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/1/1d/Makima_FB.png" alt="pls" height=650>
+</div>
+
+<div class="left_img">
+	<img src="https://static.wikia.nocookie.net/tokyoghoul/images/3/36/Rize_anime_design_front_view.png" alt="pookie?" height=650>
+</div>
+
+<script>
+	function no_clicked(){
+		var noButton = document.getElementById("no_b");
+		var bruh = document.getElementById("audio");
+		bruh.play();
+		alert("PLEASEEEEEEEEEEEEEEEEEEEEE");
+		bruh.play();
+		noButton.color = "red";
+	}
+	function yes_clicked(){
+		var yesButton = document.getElementById("yes_b");
+		var yay = document.getElementById("audio2");
+		yay.play();
+		alert("hehe thank you pookie");
+		yay.play();
+
+	}
+</script>
+
+
+</body>
+
+</html>
